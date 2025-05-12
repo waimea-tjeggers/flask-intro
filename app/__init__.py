@@ -11,4 +11,8 @@ def home():
 
 @app.get("/test/")
 def test():
-    return "<h1>Testing... 1, 2, 3</h1>"
+    return render_template("pages/test.jinja")
+
+@app.get("/about/")
+def test():
+    return render_template("pages/about.jinja")
