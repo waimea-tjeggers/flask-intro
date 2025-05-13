@@ -13,3 +13,10 @@ section#hero h1 {
     font-size: 5rem;
     text-align: center;
 }
+
+#randnum{
+    font-size: 10rem;
+    color: var(--pico-primary);
+    font-weight: bold;
+    text-align: center;
+}
